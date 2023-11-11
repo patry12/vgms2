@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Calendarioracegt</title>
+</head>
+<body>
+    <div id="quadrotitolo"> <div id="titolo"> Calendario Race</div> </div>
+    <div id="conteineruno">
+      <a href="pginiziale.html"> <button id="bhome"  type="button"> <span id="home"></span> home </button> </a> 
+     <a href="classificagt3.html"> <button id="bclassifica"  type="button"> <span id="classifica"></span> classifica </button> </a>
+     <a href="regolamento.html"> <button id="bcregolamento"  type="button"> <span id="regolamento"></span> regolamento </button> </a></div>
+
+
+    <a href="risultatomonza.html"><div id="monza"> <div id="scrittamonza"> MONZA </div> <div id="infogaramonza"> 10-10-23 <div id="calendariomonza"></div>  21:00<br> Q-15 / Race - 45 </div></div></a>
+    <div id="ledmonza"></div>
+     <a href="risultatovalencia.html"><div id="valencia"> <div id="scrittavalencia"> VALENCIA </div> <div id="infogaravalencia"> 10-10-23 <div id="calendariovalencia"></div>  21:00<br> Q-15 / Race - 45 </div></div> </a>
+     <div id="ledvalencia"></div>
+     <a href="risultatospa.html"><div id="spa"> <div id="scrittaspa"> SPA </div> <div id="infogaraspa"> 10-10-23 <div id="calendariospa"></div>  21:00<br> Q-15 / Race - 45 </div></div> </a>
+     <div id="ledspa"></div>
+     <a href="risultatoindianapolis.html"><div id="indianapolis"> <div id="scrittaindianapolis"> INDIANAPOLIS </div> <div id="infogaraindianapolis"> 10-10-23 <div id="calendarioindianapolis"></div>  21:00 <br> Q-15 / Race - 45 </div></div> </a>
+    <div id="ledindianapolis"></div>
+     <a href="risultatosilverston.html"><div id="silverston"> <div id="scrittasilverston"> SILVERSTON</div> <div id="infogarasilverston"> 10-10-23 <div id="calendariosilverston"></div>  21:00<br> Q-15 / Race - 45 </div></div> </a>
+     <div id="ledsilverston"></div>
+     <div id="ledzanv"></div>
+    <a href="risultatozanvdoort.html"><div id="zandvoort"> <div id="scrittazanvd">ZANVDOORT</div> <div id="infozanvd"> 05-11-23 <div id="calendariomm"></div> 21:00<br> Q-15 / Race - 45 </div></div> </a>
+     
+    <style>
+        body{ background-color: black;}
+        #quadrotitolo{
+      border: solid 2px red none ; display: flex;
+      width:100%; height: 50px;
+      align-items: center; justify-content: center; }
+
+      #titolo{ background-color: blue none;  color: white; width: 80%; height: 100%; text-align: center;
+      font-size:50px; font-weight: bold; font-style: oblique;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+ #monza{border: solid 2px red; color: white; position: absolute; display: flex;  align-items: first baseline; justify-content: center; border-radius: 10px;
+ top: 120px; left: 20px; width:350px;height:150px ; margin-top: 15px; background-image: url(monzaimmagine.png); background-position: right; background-repeat: no-repeat; background-size: contain;}
+ #scrittamonza{border:solid 2px red  none; width:90px; height:25px; font-size: 20px; font-style: normal; font-weight: bold; position: absolute;}
+ #infogaramonza{border: solid 2px green none;  position: absolute; color: white; top:55px; left:5px; background-color: chocolate none ; border-radius:5%;}
+ #calendariomonza{border: solid 2px red none; width: 25px; height:25px; margin-left:75px; margin-top: -25px; background-image: url(calendario.jpg);background-position: center; background-repeat: no-repeat;background-size:20px;}
+#ledmonza::before{ content:''; border: solid 1px grey ; border-radius: 7px; position: absolute; width:30px; 
+height:30px; left:35px; top:120px; transform: skewX(10deg); box-shadow:0 0 30px #008000;
+animation: animatemonza 1s linear infinite;}
+#ledmonza::after{ content:'' ; filter: blur(10 10 50px green);}
+
+@keyframes animatemonza{
+
+  0%{ background-color:green;}
+  50%{ background-color: black;}
+  75%{ background-color: green;}
+  100%{ background-color: green;}
+}
+
+      #valencia{border: solid 2px blue; color:white;  position: absolute; display: flex;  align-items: first baseline; justify-content: center; border-radius: 10px;
+        top:155px; left:470px; width:350px;height:150px ; margin-top:15px; background-image: url(valencia12.jpg);z-index:-3; background-position: right; background-repeat: no-repeat; background-size:135px;}
+      #scrittavalencia{border:solid 2px red none ; width:122px; height:25px; font-size: 20px; font-style: normal; font-weight: bold; position: absolute;}
+      #infogaravalencia{border: solid 2px green none ;  position: absolute; color: white; top:55px; left:5px; background-color: chocolate none ; border-radius:5%;}
+      #calendariovalencia{border: solid 2px red none; width: 25px; height:25px; margin-left:75px; margin-top: -25px; background-image: url(calendario.jpg);background-position: center; background-repeat: no-repeat;background-size:20px;}
+      #ledvalencia::after{content:""; border: solid 1px grey; border-radius: 7px; position: absolute; width:30px; 
+height:30px; left:505px; top:145px; transform: skewX(5deg); box-shadow: 0 0 30px red;
+animation: animatevalencia 1s linear infinite;}
+
+#ledvalencia::before{content:""; filter: blur( 10 10 50px red);}
+
+@keyframes animatevalencia{
+
+  0%{ background-color:red;}
+  50%{ background-color: black;}
+  75%{ background-color: red;}
+  100%{ background-color: red;}
+}
+
+ #spa{border: solid 2px green;color:white;  position: absolute; justify-content: center; align-items: center; display: flex;  align-items: first baseline;  border-radius: 10px;
+ left:940px; top:180px; width:350px;height:150px; margin-top: 15px; background-image: url(spa.jpg); z-index:-3; background-position: right; background-repeat: no-repeat; background-size: contain;}
+ #scrittaspa{border:solid 2px red none; width:90px; height:25px; font-size: 20px; font-style: normal; font-weight: bold; position: absolute;}
+ #infogaraspa{border: solid 2px green none;  position: absolute; color: white; top:55px; left:5px; background-color: chocolate none ; border-radius:5%;}
+ #calendariospa{border: solid 2px red none ; width: 25px; height:25px; margin-left:75px; margin-top: -25px; background-image: url(calendario.jpg);background-position: center; background-repeat: no-repeat;background-size:20px;}
+ #ledspa::after{content:""; border: solid 1px grey ; border-radius: 7px; position: absolute; width:30px; 
+height:30px; left:1230px; top:170px; transform: skewY(5deg); box-shadow: 0 0 30px red;
+animation: animatespa 1s linear infinite;}
+#ledspa::before{ content:"";  filter: blur(10 10 50px red);}
+@keyframes animatespa{
+
+  0%{ background-color:red;}
+  50%{ background-color: black;}
+  75%{ background-color: red;}
+  100%{ background-color: red;}
+}
+
+#indianapolis{border: solid 2px yellow;color:white; position: absolute; display: flex;  align-items: first baseline; justify-content: center; border-radius: 10px;
+left:20px; top:430px; width:350px;height:150px;}
+#scrittaindianapolis{border:solid 2px red none ; width:175px; height:25px; font-size: 20px; font-style: normal; font-weight: bold; position: absolute;}
+ #infogaraindianapolis{border: solid 2px green none;  position: absolute; color: white; top:50px; left:5px; background-color: chocolate none ; border-radius:5%;}
+ #boxled{border: solid 2px blue  ; height: 25px; width: 150px; left: 17px; top:55px; position:absolute; overflow: hidden;}
+ #calendarioindianapolis{border: solid 2px red  none ; width: 25px; height:25px; margin-left:69px; margin-top: -25px; background-image: url(calendario.jpg);background-position: center; background-repeat: no-repeat;background-size:20px;}
+#ledindianapolis::after{content: ""; border: solid 1px grey; border-radius: 7px; position: absolute; width:30px; 
+height:30px; left:50px; top:410px; transform: skewX(5deg); box-shadow: 0 0 30px red;
+animation: animateindianapolis 1s linear infinite;}
+#ledindianapolis::before{ content: ""; filter: blur(10 10 50px red);}
+
+@keyframes animateindianapolis{
+
+  0%{ background-color:red;}
+  50%{ background-color: black;}
+  75%{ background-color: red;}
+  100%{ background-color: red;}
+}
+
+#silverston{border: solid 2px red;color:white; position: absolute; display: flex;  align-items: first baseline; justify-content: center; border-radius: 10px;
+ left:470px; top:450px; width:350px; height: 150px; background-image: url(silverstone.jpg); background-repeat: no-repeat; z-index: -3; background-size:125px; background-position: right; margin-right: 20px;}
+ #scrittasilverston{border:solid 2px red none ; width:175px; height:25px; font-size: 20px; font-style: normal; font-weight: bold; position: absolute;}
+#infogarasilverston{border: solid 2px green none ;  position: absolute; color: white; top:55px; left:5px; background-color: chocolate none ; border-radius:5%;}
+#calendariosilverston{border: solid 2px red  none ; width: 25px; height:25px; margin-left:75px; margin-top: -25px; background-image: url(calendario.jpg);background-position: center; background-repeat: no-repeat;background-size:20px;}
+ #ledsilverston::after{content: ""; border: solid 2px grey; border-radius: 7px; position: absolute; width:30px; 
+height:30px; left:490px; top:428px; transform: skewX(5deg); box-shadow: 0 0 30px red;
+animation: animatesilverston 1s linear infinite;}
+#ledsilverston::before{ content: ""; filter: blur();}
+
+@keyframes animatesilverston{
+
+  0%{ background-color:red;}
+  50%{ background-color: black;}
+  75%{ background-color: red;}
+  100%{ background-color: red;}
+}
+
+ #zandvoort{border: solid 2px orangered ; border-radius:10px; color: white; position: absolute; display: flex; justify-content: center; align-items: first baseline;
+ left:940px; top:490px; width:350px;height:150px ; background-image: url(zandvoort.jpg); z-index: -3; background-size:105px; background-position: right; background-repeat: no-repeat;}
+ #scrittazanvd{ border:solid 2px red none; width:148px; height:25px; font-size: 20px; font-style: normal; font-weight: bold; position: absolute;}
+#infozanvd{ border: solid 2px green none;  position: absolute; color: white; top:55px; left: 5px; background-color: chocolate none; border-radius:5%;}
+#calendariomm{border: solid 2px red none; width: 25px; height:25px; margin-left: 70px; margin-top: -23px; background-image: url(calendario.jpg);background-position: center; background-repeat: no-repeat;background-size:20px;}
+#ledzanv::before{ content:""; border:solid 1px grey; border-radius: 7px; position: absolute; width:30px; 
+height:30px; left:1230px; top:470px; box-shadow: 0 0 30px red;
+animation: animate 1s linear infinite; transform: skewY(5deg);}
+#ledzan::after{ content:""; filter: blur();}
+
+@keyframes animate{
+
+  0%{ background-color: rgb(255, 0, 0); }
+  50%{ background-color: black;}
+  75%{ background-color: red; }
+  100%{ background-color: red;}
+}
+#conteineruno{ border: solid 2px green none; display: flex; position:absolute; width: 360px; height:40px; justify-content:left; align-items: top; left: 900px; top: 72px; overflow: hidden; }
+
+#bhome{ border: solid blue 2px none; background-color: transparent; color: white; left:55px; position: absolute; justify-content: center; display: flex; top: 1px; border-radius: 15px; font-size: 15px; cursor: pointer; font-weight: bold; padding:5px; text-transform: uppercase; overflow: hidden; }
+#home{ background-color: red; width:0%; height: 100%; left: 0px; bottom: 0px; position: absolute;  transition: 1s; z-index: -1;}
+#bhome:hover #home{width: 100%;}
+#bhome:hover{ color: black; transition: 2s;}
+
+#bclassifica{ border: solid blue 2px none; background-color:transparent; color: white; left: 119px; position: absolute; justify-content: center; display: flex; top: 1px; border-radius: 15px; font-size: 15px; cursor: pointer; font-weight: bold; padding:5px; overflow: hidden; text-transform: uppercase;}
+#classifica{background-color: red; width:0%; height: 100%; left: 0px; bottom: 0px; position: absolute;  transition: 1s; z-index: -1;}
+#bclassifica:hover  #classifica{ width: 100%; }
+#bclassifica:hover { transition: 2s;  color: black; }
+
+
+#bcregolamento{ border: solid blue 2px none; background-color:transparent; color: white; left:225px; position: absolute; justify-content: center; display: flex; top: 1px; border-radius: 15px; font-size: 15px; cursor: pointer; font-weight: bold; padding:5px; overflow: hidden; text-transform: uppercase;}
+#regolamento{background-color: red; width:0%; height: 100%; left: 0px; bottom: 0px; position: absolute;  transition: 1s; z-index: -1;}
+#bcregolamento:hover  #regolamento{ width: 100%; }
+#bcregolamento:hover { transition: 2s;  color: black; }
+
+
+
+</style>
+</body>
+
+
+    </style>
+</body>
+</html>

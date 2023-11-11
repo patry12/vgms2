@@ -1,0 +1,309 @@
+body{ background:linear-gradient(100deg,black,grey); margin: 0px; }
+table{  background:linear-gradient(100deg,black,gray);
+padding: 50px;  border-radius: 30px; top: 2px;
+text-align: center; clear: both; font-size:21px;
+border-spacing: 15px;}
+#nomeclassifica{ background-color:transparent; color: goldenrod; text-align: center; font-size: 35px;
+ border-radius: 20px;  margin-bottom: 15px; clear: both;}
+#pubblicita{border: solid 2px blue; height: 150px; width: 440px; border-radius: 10px; position: absolute; left: 710px; top: 120px; color: white; overflow: hidden; text-align: center;}
+
+
+.numerouno{ background-color: red; border-radius:13px 0px 13px 0px; 
+color: white; border-top-color: white; border:solid 3px;
+width:40px; height: 20px;}
+.pilotauno{color: white; font-size:25px;}
+.puntiprimo{color: white;font-size: 20px;}
+
+.numerodue{ background-color: red; border-radius:13px 0px 13px 0px; 
+color: white; border-top-color: white; border:solid 3px;
+width:40px; height: 20px;}
+.pilotadue{color: white; font-size:25px; }
+.puntisecondo{color: white;font-size: 20px;}
+
+.numerotre{ background-color: red; border-radius:13px 0px 13px 0px; 
+color: white; border-top-color: white; border:solid 3px;
+width:40px; height: 20px;}
+.pilotatre{color: white; font-size:25px;}
+.puntiterzo{color: white;font-size: 20px;}
+.numeroautotre{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}
+
+.numeroquattro{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotaquattro{color: white; font-size:25px;}
+.puntiquarto{color: white;font-size: 20px;}
+.numeroautoquattro{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}
+
+ .numerocinque{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotacinque{color: white; font-size:25px;}
+.punticinque{color: white;font-size: 20px;}
+.numeroautocinque{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}
+
+ .numerosei{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotasei{color: white; font-size:25px;}
+.puntisesto{color: white;font-size: 20px;}
+.numeroautosesto{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}
+
+ .numerosette{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotasettimo{color: white; font-size:25px;}
+.puntisettimo{color: white;font-size: 20px;}
+.numeroautosettimo{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}
+
+ .numerootto{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotaotto{color: white; font-size:25px;}
+.puntiotto{color: white;font-size: 20px;}
+.numeroautootto{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}
+
+ .numeronove{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotanove{color: white; font-size:25px;}
+.puntinove{color: white;font-size: 20px;}
+.numeroautonove{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}
+
+ .numerodieci{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotadieci{color: white; font-size:25px;}
+.puntidieci{color: white;font-size: 20px;}
+.numeroautodieci{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}  
+
+ .numeroundici{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotaundici{color: white; font-size:25px;}
+.puntiundici{color: white;font-size: 20px;}
+.numeroautoundici{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}  
+
+ .numerododici{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotadodici{color: white; font-size:25px;}
+.puntidodici{color: white;font-size: 20px;}
+.numeroautododici{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}  
+
+ .numerotredici{  background-color: red; border-radius:13px 0px 13px 0px; 
+    color: white; border-top-color: white; border:solid 3px;
+    width:40px; height: 20px;}
+.pilotatredici{color: white; font-size:25px;}
+.puntitredici{color: white;font-size: 20px;}
+.numeroautotredici{ background-color:blue;  
+    color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+ border: solid 2px;}  
+
+ #tabdue{background:linear-gradient(100deg,black,gray); left: 400px; margin-top: 400px; position: absolute;
+    padding: 50px;  border-radius: 30px; top: 2px; z-index: -2;
+    text-align: center; clear: both; font-size:21px;
+    border-spacing: 15px;}
+
+    .numeroquatordici{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotaquatordici{color: white; font-size:25px;}
+    .puntiquatordici{color: white;font-size: 20px;}
+    .numeroautoquatordici{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numeroquindici{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotaquindici{color: white; font-size:25px;}
+    .puntiquindici{color: white;font-size: 20px;}
+    .numeroautoquindici{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numerosedici{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotasedici{color: white; font-size:25px;}
+    .puntisedici{color: white;font-size: 20px;}
+    .numeroautosedici{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;} 
+     
+     .numerodiciasette{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotadiciasette{color: white; font-size:25px;}
+    .puntidiciasette{color: white;font-size: 20px;}
+    .numeroautodiciasette{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numerodiciotto{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotadiciotto{color: white; font-size:25px;}
+    .puntidiciotto{color: white;font-size: 20px;}
+    .numeroautodiciotto{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numerodicianove{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotadicianove{color: white; font-size:25px;}
+    .puntidicianove{color: white;font-size: 20px;}
+    .numeroautodicianove{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numeroventi{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotaventi{color: white; font-size:25px;}
+    .puntiventi{color: white;font-size: 20px;}
+    .numeroautoventi{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numeroventuno{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotaventuno{color: white; font-size:25px;}
+    .puntiventuno{color: white;font-size: 20px;}
+    .numeroautoventuno{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numeroventidue{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotaventidue{color: white; font-size:25px;}
+    .puntiventidue{color: white;font-size: 20px;}
+    .numeroautoventidue{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numeroventitre{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotaventitre{color: white; font-size:25px;}
+    .puntiventitre{color: white;font-size: 20px;}
+    .numeroautoventitre{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numeroventiquattro{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotaventiquattro{color: white; font-size:25px;}
+    .puntiventiquattro{color: white;font-size: 20px;}
+    .numeroautoventiquattro{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     .numeroventicinque{  background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:40px; height: 20px;}
+    .pilotaventicinque{color: white; font-size:25px;}
+    .puntiventicinque{color: white;font-size: 20px;}
+    .numeroautoventicinque{ background-color:blue;  
+        color: white; border-top-color: white; font-size: 15px; border-radius: 8px;
+     border: solid 2px;}  
+
+     
+
+ 
+ .conteiner2{ display: flex;}
+
+.hunoclassifica{  color: goldenrod; background-color:
+black; width: 140px; position: relative;
+border:solid; background: transparent; cursor: pointer; text-transform: uppercase; overflow: hidden;
+border-color: red;border-radius: 20px; 
+padding-left: 10px; -webkit-text-stroke: 1.5px gold;}
+
+.vgms{background:linear-gradient(to left,red,green,white);
+height: 100%; width:0; position: absolute; 
+left:0; bottom:0; z-index:-1; 
+transition:0.5s; }
+h1:hover .vgms{width: 100%;}
+
+
+
+
+.conteiner{ display:flex; width: max-content; border: solid red none; border-radius: 10px; margin-left: 20px;}   
+#bhome{ 
+position: relative; 
+padding: 5px;
+text-align: center;
+margin: 10px 0px 10px 10px;
+font-style: italic; font-weight: bolder;
+border: 2px solid green; border-radius:50px;
+background: transparent; color:white; cursor:pointer;
+overflow: hidden; text-transform: uppercase;
+} 
+#homs{ background-color: #3eff37;
+height: 100%; width:0; position: absolute; 
+left:0; bottom:0; z-index:-1; 
+transition:0.5s;}
+button:hover #homs{width: 100%;}
+
+#bcalendario{ 
+position: relative;
+padding: 5px;
+text-align: center;
+margin:  10px 10px;
+font-style: italic; font-weight: bolder;
+border: 2px solid green; border-radius:50px;
+background: transparent; color:white; cursor:pointer;
+overflow: hidden; text-transform: uppercase;
+} 
+#calend{ background-color:red;
+height: 100%; width:0; position: absolute; 
+left:0; bottom:0; z-index:-1; 
+transition:0.5s;}
+button:hover #calend{width: 100%;}
+
+
+.conteinertre{ margin-left: 300px; font-size: 1px; 
+display: flex; width:max-content;
+border: solid red none; padding-top:0px; position:relative;}
+
+#btredrap{ 
+position: relative; 
+padding: 5px;
+text-align: center;
+margin:  10px 10px;
+font-style: italic; font-weight: bolder;
+border: 2px solid blue; border-radius:50px;
+background: transparent; color:red; cursor:pointer;
+overflow: hidden; text-transform: uppercase; left:570px; top:40px; } 
+
+#tredrap{ background-color:white;
+height: 100%; width:0; position: absolute; 
+left:0; bottom:0; z-index:-1; 
+transition:0.5s;}
+button:hover #tredrap{width: 100%;}
+ 
+    

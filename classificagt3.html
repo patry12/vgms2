@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>classificagt3</title>
+</head>
+<body>
+  <div id="logopista"> <span id="gtcup"> GT CUP 1</span> </div>
+  <div id="info"> <span id="race"> CLASSIFICA </span> </div>
+  <a href="pginiziale.html"><button id="button_home"> home </button> </a>                          
+  <a href="calendariogt3.html"><button id="button_calendario"> calendario </button></a>
+  <button id="centrobutton"> VGMS</button>
+    
+  
+  <div id="classe"></div> 
+
+     <style>
+       
+       #logopista{border: 2px solid none ; background-color: rgba(255, 0, 0, 0.829); border-radius:5px 5px 5px 0px; width: 195px; height: 60px; position: absolute; left: 25px; top: 20px;  display: flex;}
+       #gtcup{ color: white; font-size: 30px; margin-left: 15px; margin-top:12px; font-weight: bold;}
+       #info{border: 2px solid none ; background-color:rgba(255, 255, 255, 0.959);border-radius:0px 0px 5px 5px; width: 155px; height: 30px; position: absolute; left: 25px; top: 80px; z-index: 1; overflow: hidden; display: inline-flex;}
+       #race{ font-size:20px; margin-left:15px; margin-top:3px; font-weight: bold; justify-content: center;}
+       #button_home{ border: solid 2px red;position: absolute; left: 450px; top:2px; width: 50px; height: 30px; border-radius:0px 0px 0px 15px; cursor: pointer; background-color: black; color: white; border-color: rgb(5, 255, 5); font-weight: bold;}
+       #button_calendario{ border: solid 2px red;position: absolute; left: 602px; top:2px; width: 100px; height: 30px; border-radius:0px 15px 0px 0px; cursor: pointer; background-color: black; color: white; border-color: rgb(255, 0, 0); font-weight: bold;}
+       #centrobutton{ border: solid 2px red;position: absolute; left: 501px; top:2px; width: 100px; height: 30px; border-radius:0px 0px 0px 0px; cursor: pointer; background-color: black; color: white; border-color: rgb(247, 247, 247); font-weight: bold;}
+       
+       body{ background:black; width: 100%; }
+        table{ background:linear-gradient(150deg,black,rgba(128, 128, 128, 0.445));  color: white; margin-left: 100px; margin-top: 115px; height: 100px; border-radius: 15px;}
+        thead{ color: blue;}
+        
+
+        #id{ color: red; padding: 5px; } 
+        #nome{ color: white;} 
+        #punti{color: rgb(3, 250, 3);padding: 10px; }
+        .numerico{background-color: red; border-radius:13px 0px 13px 0px; 
+        color: white; border-top-color: white; border:solid 3px;
+        width:38px; height: 25px; justify-content: center; padding-top:2px;}
+        .nomi{ color: rgb(255, 255, 255); font-size: 20x; background:linear-gradient(100deg,red,black); border-radius:0px 10px 1px 10px; 
+         border-top-color: white; border:solid 3px; width:80px; height: 25px;
+         text-align: center; padding: 0px 10px 0px 5px; }
+         #punti2{color: rgb(115, 255, 0); padding: 6px;}
+         #car{ color: white;}   
+         #auto{ text-align: start; }
+         /*.posizionidinamiche{border:solid 1px red; background:linear-gradient(5deg, red,white,rgb(13, 247, 5)); width:  15px; }*/
+         #car{border: solid 2px red none;}
+         
+         
+         .cars{color:rgba(255, 255, 255, 0.774); text-align: center;}
+     </style>
+
+
+     <script>
+
+   const pilota_uno = "pilota1";   const pilota_sei = "pilota7";      const pilota_undici = "pilota21";     const pilota_sedici= "pilota16";
+   const pilota_due = "pilota2";      const pilota_sette = "pilota8";   const pilota_dodici = "pilota12";     const pilota_diciasette = "pilota17";
+   const pilota_tre = "pilota4";    const pilota_otto = "pilota9";   const pilota_tredici = "pilota13";    const pilota_diciotto= "pilota18";
+   const pilota_quattro = "pilota5"; const pilota_nove = "pilota10";    const pilota_quattordici ="pilota14"; const pilota_dicianove = "pilota19";
+   const pilota_cinque = "pilota6"; const pilota_dieci = "pilota11";     const pilota_quindici="pilota15";     const pilota_20= "pilota20";
+
+      const punti_primo = Number(20);
+      const punti_due = Number(10);
+      const punti_tre = Number(5);
+      const punti_quattro = Number(2);
+
+      const  amg = "amg gt3" 
+      const ferrari = "ferrari gt3"
+      const lamborghini = "lamborghini gt3"
+      const porsche = "porsche gt3"
+      
+      //const  uno= document.querySelector('primario');
+
+        const classifica =[ 
+        {nome: pilota_uno , punti: punti_quattro + punti_due + punti_primo , auto: amg  },         {nome: pilota_undici, punti: punti_quattro + punti_due , auto: ferrari  }, 
+        {nome : pilota_due, punti: punti_tre + punti_primo + punti_tre , auto: ferrari },          {nome: pilota_dodici , punti: punti_quattro + punti_due + punti_primo , auto: porsche  }, 
+        {nome: pilota_tre, punti : punti_primo + punti_primo + punti_primo , auto: lamborghini } , {nome: pilota_tredici, punti: punti_quattro + punti_due , auto: amg  }, 
+        {nome: pilota_quattro, punti: punti_primo, auto:porsche },                                 {nome: pilota_quattordici , punti: punti_due + punti_primo , auto: lamborghini }, 
+        {nome: pilota_cinque, punti: punti_primo, auto:amg },                                      {nome: pilota_quindici , punti: punti_quattro + punti_due + punti_primo , auto: amg  },  
+        {nome: pilota_sei, punti: punti_primo, auto:amg },                                         {nome: pilota_sedici, punti: punti_quattro + punti_primo , auto: amg  }, 
+        {nome: pilota_sette, punti: punti_primo + punti_quattro, auto:amg },                                       {nome: pilota_diciasette , punti:  punti_due + punti_primo , auto: lamborghini }, 
+        {nome: pilota_otto, punti: punti_primo, auto:amg },                                        {nome: pilota_diciotto , punti: punti_quattro + punti_primo , auto: ferrari  }, 
+        {nome: pilota_nove, punti: punti_primo, auto:amg },                                        {nome: pilota_dicianove , punti: punti_quattro + punti_due , auto: porsche },  
+        {nome: pilota_dieci, punti:  punti_primo + punti_primo + punti_tre, auto:amg },  {nome:pilota_20,punti:punti_primo,auto:ferrari}];
+
+
+var quadrato = document.getElementById('classe');
+var tabella = '<table><thead><tr><th id= id>POS</th><th id= nome>NOME</th><th id=punti>PUNTI</th><th id= car >CAR</th></tr></thead></tbody>';
+    
+    classifica.sort((a, b) => {       
+      return b.punti - a.punti });
+
+for(i=0;  i<classifica.length; i++){
+    tabella += '<tr><th><p class= "numerico"> '+(i + 1 )+ '</p></th><th><p class= "nomi">'+ classifica[i].nome +'</p></th><th id=punti2>' + classifica[i].punti +  '</th><th><p class= "cars">' + classifica[i].auto + '</p></th></tr>';
+
+    }  
+
+       tabella += '</tbody></table>';
+
+       quadrato.innerHTML = tabella ;
+
+
+     
+
+
+     </script>
+</body>
+</html>

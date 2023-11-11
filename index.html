@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>VGMS</title>
+</head>
+<body>
+    <div id="divsopra"></div>
+    <div id="divsotto"></div>
+    <div id="vgms"></div>
+    <a href="pginiziale.html"><button type="button"  id="bottoneopen"> OPEN </button></a>
+
+    <style>
+
+        body{display: flex; background-color: black;}
+#divsopra{border:solid 2px rgb(216, 5, 5) none; width:700px; height:20px; position: absolute; left:250px; top: 250px; background-color: red; border-radius:15px; animation: quadrorosso both 5s;}
+#divsotto{border: solid 2px rgb(4, 4, 240) none; width:700px; height:20px; position:absolute; left:250px; top: 250px; background-color: blue; border-radius:15px ; animation: quadroblu both 5s;}
+#vgms{border: solid 2px yellow none; position: fixed; left: 510px; top:203px; animation: scritta 5s linear infinite; background-image: url(vgms1.jpg);width: 200px; height: 200px;background-size: contain; background-repeat: no-repeat; z-index: -1;}
+#bottoneopen{border:solid 2px red; position: absolute; height: 20px; width: 55px; border-radius: 15px; background-color: red; color: white; left: 80px; top: 620px; cursor: pointer; padding:1px; text-align:center;}
+@keyframes quadroblu {
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(390px);}
+    100%{transform:translateY(0px); transform: rotate(180deg); visibility:hidden;}}
+
+    @keyframes quadrorosso {
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(-260px);}
+    100%{transform:translateY(0px); transform: rotate(-180deg);  visibility:hidden;}}
+
+    @keyframes scritta{
+    0%{opacity :0;}
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity:1;}
+    100%{visibility: visible;}
+   }
+
+
+
+
+
+
+
+    </style>
+
+</body>
+</html>
